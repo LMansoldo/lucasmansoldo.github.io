@@ -1,13 +1,29 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import { content, initLang } from '$lib/i18n.svelte';
+	import LensFilter from '$lib/components/LensFilter.svelte';
+	import Aurora from '$lib/components/Aurora.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
+
+	initLang();
+
+	const t = $derived(content());
+
+	$effect(() => {
+		document.documentElement.lang = t.html.lang;
+	});
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<meta name="description" content="Lucas Mansoldo - Software Engineer & Builder" />
+	<title>{t.html.title}</title>
+	<meta name="description" content={t.html.description} />
 </svelte:head>
 
-{@render children()}
+<LensFilter />
+<Aurora />
+<Nav />
+<main>
+	{@render children()}
+</main>

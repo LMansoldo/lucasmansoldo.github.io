@@ -1,26 +1,18 @@
 <script lang="ts">
-	import { createActiveSection } from '$lib/stores/activeSection.svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
-	import HeroSection from '$lib/components/HeroSection.svelte';
-	import AboutSection from '$lib/components/AboutSection.svelte';
-	import ProjectsSection from '$lib/components/ProjectsSection.svelte';
-	import ExperienceSection from '$lib/components/ExperienceSection.svelte';
-	import SkillsSection from '$lib/components/SkillsSection.svelte';
-	import ContactSection from '$lib/components/ContactSection.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import { content } from '$lib/i18n.svelte';
+	import Hero from '$lib/components/Hero.svelte';
+	import Metrics from '$lib/components/Metrics.svelte';
+	import WorkGrid from '$lib/components/WorkGrid.svelte';
+	import Experience from '$lib/components/Experience.svelte';
+	import StackTabs from '$lib/components/StackTabs.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 
-	const activeSection = createActiveSection();
+	const t = $derived(content());
 </script>
 
-<Navbar activeSection={activeSection.current} />
-
-<main>
-	<HeroSection />
-	<AboutSection />
-	<ProjectsSection />
-	<ExperienceSection />
-	<SkillsSection />
-	<ContactSection />
-</main>
-
-<Footer />
+<Hero data={t.hero} />
+<Metrics data={t.metrics} />
+<WorkGrid data={t.work} />
+<Experience data={t.experience} />
+<StackTabs data={t.stack} />
+<Contact contact={t.contact} footer={t.footer} />

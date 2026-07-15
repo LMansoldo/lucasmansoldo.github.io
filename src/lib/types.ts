@@ -1,63 +1,134 @@
-export interface KPI {
-	value: string;
-	label: string;
-	suffix?: string;
+export interface ContentMeta {
+	defaultLang: string;
+	langs: string[];
 }
 
-export interface Project {
-	id: string;
+export interface HtmlContent {
+	lang: string;
 	title: string;
 	description: string;
-	tags: string[];
-	category: string;
-	href?: string;
-	accentColor: string;
-	iconText: string;
-	featured?: boolean;
 }
 
-export interface Experience {
-	id: string;
-	role: string;
-	company: string;
-	period: string;
-	description: string;
-	tags: string[];
-	current?: boolean;
-}
-
-export interface Skill {
-	name: string;
-	level?: 'beginner' | 'intermediate' | 'advanced' | 'expert';
-}
-
-export interface SkillCategory {
-	category: string;
-	icon: string;
-	skills: Skill[];
-}
-
-export interface SocialLink {
-	name: string;
-	handle: string;
-	url: string;
-	icon: string;
-	bg: string;
-}
-
-export interface Section {
-	id: string;
-	label?: string;
-	icon?: string;
+export interface NavContent {
+	work: string;
+	experience: string;
+	stack: string;
+	contact: string;
 }
 
 export interface HeroContent {
 	eyebrow: string;
-	name: string;
-	subtitle: string;
-	cta: {
-		primary: { label: string; href: string };
-		secondary: { label: string; href: string };
-	};
-	stats: { value: string; label: string }[];
+	headline_a: string;
+	headline_b: string;
+	lede: string;
+	cta_primary: string;
+	cta_secondary: string;
+	hint: string;
 }
+
+export interface MetricItem {
+	value: string;
+	unit: string;
+	label: string;
+	note: string;
+}
+
+export interface MetricsContent {
+	label: string;
+	items: MetricItem[];
+}
+
+export interface WorkItem {
+	featured?: boolean;
+	kind: string;
+	name: string;
+	org: string;
+	year: string;
+	summary: string;
+	detail: string;
+	tags: string[];
+}
+
+export interface WorkContent {
+	eyebrow: string;
+	title: string;
+	lede: string;
+	items: WorkItem[];
+}
+
+export interface Job {
+	role: string;
+	company: string;
+	context: string;
+	period: string;
+	summary: string;
+	bullets: string[];
+}
+
+export interface ExperienceContent {
+	eyebrow: string;
+	title: string;
+	items: Job[];
+}
+
+export interface StackGroup {
+	name: string;
+	items: string[];
+}
+
+export interface StackContent {
+	eyebrow: string;
+	title: string;
+	groups: StackGroup[];
+}
+
+export interface ContactLink {
+	label: string;
+	href: string;
+}
+
+export interface ContactContent {
+	eyebrow: string;
+	title: string;
+	lede: string;
+	email_label: string;
+	email: string;
+	links: ContactLink[];
+}
+
+export interface FooterContent {
+	note: string;
+	location: string;
+}
+
+export interface UIContent {
+	langToggle: string;
+	langToggleAria: string;
+}
+
+export interface LangContent {
+	html: HtmlContent;
+	nav: NavContent;
+	hero: HeroContent;
+	metrics: MetricsContent;
+	work: WorkContent;
+	experience: ExperienceContent;
+	stack: StackContent;
+	contact: ContactContent;
+	footer: FooterContent;
+	ui: UIContent;
+}
+
+export interface Content {
+	meta: ContentMeta;
+	en: LangContent;
+	pt: LangContent;
+}
+
+export interface LogoEntry {
+	p: string;
+	h: string;
+	t: string;
+}
+
+export type Logos = Record<string, LogoEntry>;

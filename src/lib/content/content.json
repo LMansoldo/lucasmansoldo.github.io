@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "defaultLang": "en",
+    "langs": [
+      "en",
+      "pt"
+    ]
+  },
+  "en": {
+    "html": {
+      "lang": "en",
+      "title": "Senior Software Engineer — Fullstack & AI Systems",
+      "description": "Senior Software Engineer with 6+ years building financial platforms for JP Morgan Chase, BTG Pactual and Stone. Now building MCP servers, agents and design systems."
+    },
+    "nav": {
+      "work": "Work",
+      "experience": "Experience",
+      "stack": "Stack",
+      "contact": "Get in touch"
+    },
+    "hero": {
+      "eyebrow": "Senior Software Engineer · Fullstack & AI Systems",
+      "headline_a": "I build the platform,",
+      "headline_b": "not just the feature.",
+      "lede": "Six years shipping financial products — from embedded POS terminals at Stone to banking PWAs used by thousands of JP Morgan Chase clients. The pattern repeats: I find the problem underneath the problem, and build the thing that solves it for everyone.",
+      "cta_primary": "See what I've built",
+      "cta_secondary": "Get in touch",
+      "hint": "Move your cursor across the glass"
+    },
+    "metrics": {
+      "label": "Measured outcomes",
+      "items": [
+        {
+          "value": "90%",
+          "unit": "↓",
+          "label": "sprint planning time",
+          "note": "Visual context for agents"
+        },
+        {
+          "value": "80%",
+          "unit": "↓",
+          "label": "end-of-sprint bugs",
+          "note": "Agent-assisted TDD + regression"
+        },
+        {
+          "value": "60%",
+          "unit": "↓",
+          "label": "token spend per task",
+          "note": "Context engineering"
+        },
+        {
+          "value": "70%",
+          "unit": "↓",
+          "label": "sprint time at JPMC",
+          "note": "In-house component library"
+        }
+      ]
+    },
+    "work": {
+      "eyebrow": "Selected work",
+      "title": "Things nobody asked for. **Things everybody used.**",
+      "lede": "None of these were assigned. Each started as a problem nobody had named yet.",
+      "items": [
+        {
+          "featured": true,
+          "kind": "AI Platform",
+          "name": "MCP Server for design tokens & components",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "Agents kept inventing components that didn't exist. So I gave them the real thing: an MCP Server exposing design tokens, patterns, components and already-rendered elements as tools — the project's actual truth, queryable.",
+          "detail": "Agents now build features, fix bugs and write regression tests with real project context instead of guesses. Hallucination dropped; onboarding for new features got 40% faster.",
+          "tags": [
+            "MCP",
+            "TypeScript",
+            "LangGraph",
+            "Design Tokens"
+          ]
+        },
+        {
+          "kind": "Agent Tooling",
+          "name": "Screen annotation for agent context",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "Captures navigation screenshots with on-screen event markers in COCO format, feeding LLMs and SLMs visual context instead of paragraphs of description.",
+          "detail": "Cut sprint planning time by 90% and token spend by 60%. Bug reports and prototype-to-code translation went from prose to pixels.",
+          "tags": [
+            "COCO",
+            "SLM",
+            "Vision Context"
+          ]
+        },
+        {
+          "kind": "Fullstack + Agent",
+          "name": "Legacy flow assistant",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "The client had a business rule buried in a legacy system nobody could trace day to day. I built the app that explains it — and walks you through it.",
+          "detail": "Node/TypeScript, Express, PostgreSQL, Zod, SSO, Docker. Svelte front-end driven by a LangGraph agent that consumes the MCP Server and design system to render components live. Flagged by leadership as a potential product.",
+          "tags": [
+            "Node",
+            "PostgreSQL",
+            "SSO",
+            "Svelte",
+            "LangGraph"
+          ]
+        },
+        {
+          "kind": "Developer Platform",
+          "name": "API documentation engine",
+          "org": "Ília Digital · JP Morgan Chase",
+          "year": "2022–2025",
+          "summary": "Hundreds of endpoints, documented as diagrams nobody could keep current. I proposed generating docs from the APIs' own .yaml files, with Web Components demonstrating real usage and flow.",
+          "detail": "Built the MVP; it was adopted and became its own project, which I led. Replaced Docusaurus, cut first load by 60% and script execution from 11s to 1s. Core shipped as an NPM package reusable across React and Svelte.",
+          "tags": [
+            "Web Components",
+            "SSR",
+            "OpenAPI",
+            "NPM"
+          ]
+        },
+        {
+          "kind": "Embedded Systems",
+          "name": "Containerized apps on POS hardware",
+          "org": "Stone Payments",
+          "year": "2021–2022",
+          "summary": "Docker containers running on the payment terminal itself — not on a build server. Every megabyte of image had to be earned.",
+          "detail": "Trimmed image, dependencies and runtime footprint to fit embedded memory and storage limits. In exchange: isolation and predictable deploys across a fleet in the field. Small-screen defects fell 70%.",
+          "tags": [
+            "Docker",
+            "Embedded",
+            "Svelte",
+            "PCI-grade auth"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Track record",
+      "title": "Six years. **Mostly inside banks.**",
+      "items": [
+        {
+          "role": "Senior Software Engineer",
+          "company": "Venturus",
+          "context": "R&D center for global tech companies",
+          "period": "Jun 2025 — Present",
+          "summary": "Technical reference for the team and the tech lead's right hand. Since generative AI landed, the team's reference for AI systems engineering.",
+          "bullets": [
+            "Architected the MCP Server, the design system and the agent stack they feed.",
+            "Automated code review, task management and metrics through AI workflows.",
+            "Mentor a junior developer; support the team on requirements and technical calls."
+          ]
+        },
+        {
+          "role": "Senior Software Engineer",
+          "company": "Ília Digital",
+          "context": "Client: JP Morgan Chase",
+          "period": "Apr 2022 — Apr 2025",
+          "summary": "Banking and investment platforms used by thousands of JPMC clients, embedded directly in the bank's teams.",
+          "bullets": [
+            "Led the API documentation engine, from unsolicited MVP to its own project.",
+            "Python APIs (RabbitMQ, PostgreSQL) for asset management; Elixir APIs for corporate cards.",
+            "Svelte component library replacing Material-UI — 70% less sprint time.",
+            "PWA for expenses, transfers and property investments — 40% faster loads."
+          ]
+        },
+        {
+          "role": "Software Engineer",
+          "company": "Stone Payments",
+          "context": "Embedded POS terminals",
+          "period": "Sep 2021 — Apr 2022",
+          "summary": "Applications running on payment hardware, where every KB of bundle and every CPU cycle sits between a customer and a transaction.",
+          "bullets": [
+            "Shipped Docker containers running on the POS device itself.",
+            "Authentication and security flows to financial-industry standards.",
+            "Mentored interns; active in refinement and prioritization."
+          ]
+        },
+        {
+          "role": "Full-Stack Engineer",
+          "company": "Decode",
+          "context": "BTG Pactual marketing startup",
+          "period": "Apr 2020 — Sep 2021",
+          "summary": "One of the lead developers, working database-to-interface in direct contact with marketing, design and BTG Pactual clients.",
+          "bullets": [
+            "Content trends dashboard: Node/MongoDB aggregations through to D3. APIs served 10k+ daily requests.",
+            "Internal file platform for BTG's executive board — sensitive-data context, upload and permissioning API.",
+            "Defined the JWT auth strategy for the bank's internal apps: issuance, refresh, role-based access.",
+            "Landing pages at Lighthouse 95+, cross-browser down to legacy Internet Explorer. Chose SSR or SSG per project."
+          ]
+        }
+      ]
+    },
+    "stack": {
+      "eyebrow": "Tools",
+      "title": "Deep in a few. **Fluent in the rest.**",
+      "groups": [
+        {
+          "name": "AI Engineering",
+          "items": [
+            "AI Agents",
+            "LangGraph",
+            "MCP Servers & Clients",
+            "RAG",
+            "Embeddings",
+            "Context Engineering",
+            "Vector DBs",
+            "LangChain",
+            "Fine-tuning"
+          ]
+        },
+        {
+          "name": "Languages",
+          "items": [
+            "TypeScript",
+            "JavaScript",
+            "Python",
+            "Elixir",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "MongoDB",
+            "RabbitMQ",
+            "REST",
+            "GraphQL",
+            "WebSockets",
+            "Zod",
+            "SSO / JWT"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "items": [
+            "Svelte",
+            "React",
+            "Next.js",
+            "Web Components",
+            "Design Systems",
+            "SSR / SSG",
+            "Tailwind",
+            "Storybook",
+            "Accessibility"
+          ]
+        },
+        {
+          "name": "Cloud & DevOps",
+          "items": [
+            "Docker",
+            "AWS",
+            "Azure",
+            "GCP",
+            "GitHub Actions",
+            "Jenkins",
+            "CI/CD"
+          ]
+        },
+        {
+          "name": "Testing",
+          "items": [
+            "Jest",
+            "Cypress",
+            "Playwright",
+            "TDD"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Next",
+      "title": "Got a problem **underneath a problem?**",
+      "lede": "I'm open to conversations about AI systems, internal platforms and engineering that makes whole teams faster.",
+      "email_label": "Email",
+      "email": "your@email.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/your-handle"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/your-handle"
+        },
+        {
+          "label": "Résumé (PDF)",
+          "href": "#"
+        }
+      ]
+    },
+    "footer": {
+      "note": "Built with hand-written CSS. No framework was harmed.",
+      "location": "Brazil · Remote"
+    },
+    "ui": {
+      "langToggle": "Português",
+      "langToggleAria": "Switch to Portuguese"
+    }
+  },
+  "pt": {
+    "html": {
+      "lang": "pt-BR",
+      "title": "Engenheiro de Software Sênior — Fullstack & Sistemas de IA",
+      "description": "Engenheiro de Software Sênior com 6+ anos construindo plataformas financeiras para JP Morgan Chase, BTG Pactual e Stone. Hoje construindo MCP servers, agentes e design systems."
+    },
+    "nav": {
+      "work": "Projetos",
+      "experience": "Experiência",
+      "stack": "Stack",
+      "contact": "Falar comigo"
+    },
+    "hero": {
+      "eyebrow": "Engenheiro de Software Sênior · Fullstack & Sistemas de IA",
+      "headline_a": "Eu construo a plataforma,",
+      "headline_b": "não só a feature.",
+      "lede": "Seis anos entregando produtos financeiros — de maquininhas POS embarcadas na Stone a PWAs bancários usados por milhares de clientes do JP Morgan Chase. O padrão se repete: eu encontro o problema debaixo do problema e construo o que resolve para todo mundo.",
+      "cta_primary": "Ver o que eu construí",
+      "cta_secondary": "Falar comigo",
+      "hint": "Passe o cursor sobre o vidro"
+    },
+    "metrics": {
+      "label": "Resultados medidos",
+      "items": [
+        {
+          "value": "90%",
+          "unit": "↓",
+          "label": "no tempo de planejamento",
+          "note": "Contexto visual para agentes"
+        },
+        {
+          "value": "80%",
+          "unit": "↓",
+          "label": "nos bugs de fim de sprint",
+          "note": "TDD assistido + regressão"
+        },
+        {
+          "value": "60%",
+          "unit": "↓",
+          "label": "no consumo de tokens",
+          "note": "Context engineering"
+        },
+        {
+          "value": "70%",
+          "unit": "↓",
+          "label": "no tempo de sprint no JPMC",
+          "note": "Component library própria"
+        }
+      ]
+    },
+    "work": {
+      "eyebrow": "Projetos selecionados",
+      "title": "Coisas que ninguém pediu. **Coisas que todo mundo usou.**",
+      "lede": "Nenhum deles foi atribuído. Cada um começou como um problema que ninguém tinha nomeado ainda.",
+      "items": [
+        {
+          "featured": true,
+          "kind": "Plataforma de IA",
+          "name": "MCP Server de design tokens e componentes",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "Os agentes inventavam componentes que não existiam. Então entreguei a eles a coisa real: um MCP Server que expõe design tokens, patterns, componentes e elementos já renderizados como tools — a verdade do projeto, consultável.",
+          "detail": "Os agentes passaram a criar features, resolver bugs e escrever testes de regressão com contexto real em vez de suposição. A alucinação caiu e o onboarding de novas features ficou 40% mais rápido.",
+          "tags": [
+            "MCP",
+            "TypeScript",
+            "LangGraph",
+            "Design Tokens"
+          ]
+        },
+        {
+          "kind": "Tooling para agentes",
+          "name": "Annotations de tela como contexto",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "Captura screenshots de navegação com marcações de eventos em tela, no formato COCO, alimentando LLMs e SLMs com contexto visual em vez de parágrafos de descrição.",
+          "detail": "Reduziu o tempo de planejamento de sprint em 90% e o consumo de tokens em 60%. Report de bug e tradução de protótipo saíram da prosa e foram para o pixel.",
+          "tags": [
+            "COCO",
+            "SLM",
+            "Contexto visual"
+          ]
+        },
+        {
+          "kind": "Fullstack + Agente",
+          "name": "Assistente de fluxos legados",
+          "org": "Venturus",
+          "year": "2025",
+          "summary": "O cliente tinha uma regra de negócio enterrada em um legado que ninguém conseguia rastrear no dia a dia. Construí o app que explica — e conduz você pelo fluxo.",
+          "detail": "Node/TypeScript, Express, PostgreSQL, Zod, SSO, Docker. Front em Svelte guiado por um agente LangGraph que consome o MCP Server e o design system para renderizar componentes ao vivo. Notado pela diretoria como potencial produto.",
+          "tags": [
+            "Node",
+            "PostgreSQL",
+            "SSO",
+            "Svelte",
+            "LangGraph"
+          ]
+        },
+        {
+          "kind": "Plataforma de dev",
+          "name": "Motor de documentação de APIs",
+          "org": "Ília Digital · JP Morgan Chase",
+          "year": "2022–2025",
+          "summary": "Centenas de endpoints documentados em diagramas que ninguém conseguia manter atualizados. Propus gerar a documentação a partir dos próprios .yaml das APIs, com Web Components demonstrando uso e fluxo reais.",
+          "detail": "Construí o MVP; foi adotado e virou um projeto próprio, que passei a liderar. Substituiu o Docusaurus, cortou o first load em 60% e a execução de scripts de 11s para 1s. O core virou pacote NPM reutilizável entre React e Svelte.",
+          "tags": [
+            "Web Components",
+            "SSR",
+            "OpenAPI",
+            "NPM"
+          ]
+        },
+        {
+          "kind": "Sistemas embarcados",
+          "name": "Containers rodando na maquininha",
+          "org": "Stone Payments",
+          "year": "2021–2022",
+          "summary": "Containers Docker rodando no próprio terminal de pagamento — não em um servidor de build. Cada megabyte de imagem precisava ser justificado.",
+          "detail": "Enxuguei imagem, dependências e footprint de runtime até caber nos limites de memória e armazenamento do hardware embarcado. Em troca: isolamento e deploy previsível em uma frota em campo. Defeitos em telas pequenas caíram 70%.",
+          "tags": [
+            "Docker",
+            "Embarcado",
+            "Svelte",
+            "Auth financeira"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Trajetória",
+      "title": "Seis anos. **Quase todos dentro de bancos.**",
+      "items": [
+        {
+          "role": "Engenheiro de Software Sênior",
+          "company": "Venturus",
+          "context": "Centro de P&D para empresas globais de tecnologia",
+          "period": "Jun 2025 — Presente",
+          "summary": "Referência técnica do time e braço direito do tech lead. Desde a chegada da IA generativa, a referência do time em engenharia de sistemas de IA.",
+          "bullets": [
+            "Arquitetei o MCP Server, o design system e a stack de agentes que eles alimentam.",
+            "Automatizei code review, gestão de tarefas e métricas via workflows de IA.",
+            "Mentoro desenvolvedor júnior e apoio o time em requisitos e decisões técnicas."
+          ]
+        },
+        {
+          "role": "Engenheiro de Software Sênior",
+          "company": "Ília Digital",
+          "context": "Cliente: JP Morgan Chase",
+          "period": "Abr 2022 — Abr 2025",
+          "summary": "Plataformas bancárias e de investimento usadas por milhares de clientes do JPMC, imerso diretamente nos times do banco.",
+          "bullets": [
+            "Liderei o motor de documentação de APIs, de MVP não solicitado a projeto próprio.",
+            "APIs em Python (RabbitMQ, PostgreSQL) para gestão de ativos; APIs em Elixir para cartões corporativos.",
+            "Component library em Svelte substituindo o Material-UI — 70% menos tempo de sprint.",
+            "PWA de despesas, transferências e investimentos imobiliários — 40% mais rápido."
+          ]
+        },
+        {
+          "role": "Engenheiro de Software",
+          "company": "Stone Payments",
+          "context": "Maquininhas POS embarcadas",
+          "period": "Set 2021 — Abr 2022",
+          "summary": "Aplicações rodando em hardware de pagamento, onde cada KB de bundle e cada ciclo de CPU fica entre o cliente e a transação.",
+          "bullets": [
+            "Entreguei containers Docker rodando no próprio dispositivo POS.",
+            "Fluxos de autenticação e segurança nos padrões do setor financeiro.",
+            "Mentorei estagiários; atuante em refinamento e priorização."
+          ]
+        },
+        {
+          "role": "Engenheiro Full-Stack",
+          "company": "Decode",
+          "context": "Startup de marketing do BTG Pactual",
+          "period": "Abr 2020 — Set 2021",
+          "summary": "Um dos principais desenvolvedores, atuando do banco de dados à interface em contato direto com marketing, design e clientes do BTG Pactual.",
+          "bullets": [
+            "Dashboard de content trends: das agregações em Node/MongoDB às visualizações em D3. As APIs serviam 10k+ requisições diárias.",
+            "Plataforma interna de arquivos para a diretoria do BTG — dados sensíveis, API de upload e permissionamento.",
+            "Defini a estratégia de auth com JWT para os apps internos do banco: emissão, renovação, acesso por perfil.",
+            "Landing pages com Lighthouse 95+, cross-browser até Internet Explorer legado. Escolhi SSR ou SSG por projeto."
+          ]
+        }
+      ]
+    },
+    "stack": {
+      "eyebrow": "Ferramentas",
+      "title": "Profundo em poucas. **Fluente no resto.**",
+      "groups": [
+        {
+          "name": "Engenharia de IA",
+          "items": [
+            "AI Agents",
+            "LangGraph",
+            "MCP Servers & Clients",
+            "RAG",
+            "Embeddings",
+            "Context Engineering",
+            "Vector DBs",
+            "LangChain",
+            "Fine-tuning"
+          ]
+        },
+        {
+          "name": "Linguagens",
+          "items": [
+            "TypeScript",
+            "JavaScript",
+            "Python",
+            "Elixir",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "MongoDB",
+            "RabbitMQ",
+            "REST",
+            "GraphQL",
+            "WebSockets",
+            "Zod",
+            "SSO / JWT"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "items": [
+            "Svelte",
+            "React",
+            "Next.js",
+            "Web Components",
+            "Design Systems",
+            "SSR / SSG",
+            "Tailwind",
+            "Storybook",
+            "Acessibilidade"
+          ]
+        },
+        {
+          "name": "Cloud & DevOps",
+          "items": [
+            "Docker",
+            "AWS",
+            "Azure",
+            "GCP",
+            "GitHub Actions",
+            "Jenkins",
+            "CI/CD"
+          ]
+        },
+        {
+          "name": "Testes",
+          "items": [
+            "Jest",
+            "Cypress",
+            "Playwright",
+            "TDD"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Próximo passo",
+      "title": "Tem um problema **debaixo de um problema?**",
+      "lede": "Estou aberto a conversas sobre sistemas de IA, plataformas internas e engenharia que deixa times inteiros mais rápidos.",
+      "email_label": "E-mail",
+      "email": "seu@email.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://linkedin.com/in/seu-usuario"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/seu-usuario"
+        },
+        {
+          "label": "Currículo (PDF)",
+          "href": "#"
+        }
+      ]
+    },
+    "footer": {
+      "note": "Feito com CSS escrito à mão. Nenhum framework foi ferido.",
+      "location": "Brasil · Remoto"
+    },
+    "ui": {
+      "langToggle": "English",
+      "langToggleAria": "Mudar para inglês"
+    }
+  }
+}
