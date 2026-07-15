@@ -129,18 +129,18 @@ a{color:inherit;text-decoration:none}
 .glass{
   position:relative;
   background:linear-gradient(135deg,
-    rgba(255,255,255,.64) 0%,
-    rgba(255,255,255,.36) 46%,
-    rgba(255,255,255,.30) 60%,
-    rgba(255,255,255,.52) 100%);
-  backdrop-filter:blur(18px) saturate(220%) brightness(1.06);
-  -webkit-backdrop-filter:blur(18px) saturate(220%) brightness(1.06);
+    rgba(244,244,248,.52) 0%,
+    rgba(238,238,244,.26) 46%,
+    rgba(234,234,242,.20) 60%,
+    rgba(242,242,247,.40) 100%);
+  backdrop-filter:blur(18px) saturate(210%) brightness(.98);
+  -webkit-backdrop-filter:blur(18px) saturate(210%) brightness(.98);
   border-radius:var(--r);
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,.95),
     inset 1px 2px 10px -4px rgba(255,255,255,.85),
-    inset 0 -1px 1px rgba(8,8,10,.06),
-    inset -3px -6px 16px -10px rgba(44,58,232,.18),
+    inset 0 -1px 1px rgba(8,8,10,.09),
+    inset -3px -6px 16px -10px rgba(44,58,232,.22),
     0 2px 6px -3px rgba(8,8,10,.08),
     0 24px 60px -30px rgba(8,8,10,.30);
   isolation:isolate;
@@ -162,14 +162,14 @@ a{color:inherit;text-decoration:none}
   pointer-events:none;z-index:1;
   background:
     radial-gradient(240px circle at var(--gx,50%) var(--gy,-40%),
-      rgba(255,255,255,.75),rgba(255,255,255,0) 65%),
-    linear-gradient(165deg,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 30%),
+      rgba(255,255,255,.65),rgba(255,255,255,0) 65%),
+    linear-gradient(165deg,rgba(255,255,255,.38) 0%,rgba(255,255,255,0) 30%),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
   background-size:auto,auto,160px 160px;
-  opacity:var(--sheen,.36);
+  opacity:var(--sheen,.3);
   transition:opacity .6s var(--ease);
 }
-.glass:hover::after{opacity:.55}
+.glass:hover::after{opacity:.46}
 @supports (backdrop-filter:url(#lens)){
   .refract{
     backdrop-filter:blur(12px) saturate(210%) brightness(1.05) url(#lens);
@@ -250,7 +250,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:60;padding-top:1rem}
 }
 .item:hover{
   transform:translateY(-4px);
-  background:rgba(255,255,255,.74);
+  background:rgba(243,243,248,.62);
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,.95),
     0 34px 70px -36px rgba(8,8,10,.3);
