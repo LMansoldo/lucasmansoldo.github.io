@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createActiveSection } from '$lib/stores/activeSection';
+	import { createActiveSection } from '$lib/stores/activeSection.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import HeroSection from '$lib/components/HeroSection.svelte';
 	import AboutSection from '$lib/components/AboutSection.svelte';
