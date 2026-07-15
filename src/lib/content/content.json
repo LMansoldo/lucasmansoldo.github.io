@@ -143,11 +143,11 @@
           "company": "Venturus",
           "context": "R&D center for global tech companies",
           "period": "Jun 2025 — Present",
-          "summary": "Technical reference for the team and the tech lead's right hand. Since generative AI landed, the team's reference for AI systems engineering.",
+          "summary": "The team's go-to engineer and the tech lead's right hand. Since generative AI landed, the team's go-to for AI systems engineering.",
           "bullets": [
             "Architected the MCP Server, the design system and the agent stack they feed.",
             "Automated code review, task management and metrics through AI workflows.",
-            "Mentor a junior developer; support the team on requirements and technical calls."
+            "Mentor a junior developer; support the team on requirements and technical decisions."
           ]
         },
         {
@@ -155,7 +155,7 @@
           "company": "Ília Digital",
           "context": "Client: JP Morgan Chase",
           "period": "Apr 2022 — Apr 2025",
-          "summary": "Banking and investment platforms used by thousands of JPMC clients, embedded directly in the bank's teams.",
+          "summary": "Banking and investment platforms used by thousands of JPMC clients, built while embedded in the bank's teams.",
           "bullets": [
             "Led the API documentation engine, from unsolicited MVP to its own project.",
             "Python APIs (RabbitMQ, PostgreSQL) for asset management; Elixir APIs for corporate cards.",
@@ -275,19 +275,19 @@
       "title": "Got a problem **underneath a problem?**",
       "lede": "I'm open to conversations about AI systems, internal platforms and engineering that makes whole teams faster.",
       "email_label": "Email",
-      "email": "your@email.com",
+      "email": "lucasmansoldo0@gmail.com",
       "links": [
         {
           "label": "LinkedIn",
-          "href": "https://linkedin.com/in/your-handle"
+          "href": "https://www.linkedin.com/in/lucas-mansoldo/?locale=en-US"
         },
         {
           "label": "GitHub",
-          "href": "https://github.com/your-handle"
+          "href": "https://github.com/LMansoldo"
         },
         {
           "label": "Résumé (PDF)",
-          "href": "#"
+          "href": "/Lucas_Mansoldo_de_Andrade_en.pdf"
         }
       ]
     },
@@ -316,7 +316,7 @@
       "eyebrow": "Engenheiro de Software Sênior · Fullstack & Sistemas de IA",
       "headline_a": "Eu construo a plataforma,",
       "headline_b": "não só a feature.",
-      "lede": "Seis anos entregando produtos financeiros — de maquininhas POS embarcadas na Stone a PWAs bancários usados por milhares de clientes do JP Morgan Chase. O padrão se repete: eu encontro o problema debaixo do problema e construo o que resolve para todo mundo.",
+      "lede": "Seis anos entregando produtos financeiros — de apps embarcados em maquininhas POS na Stone a PWAs bancários usados por milhares de clientes do JP Morgan Chase. O padrão se repete: eu encontro o problema debaixo do problema e construo o que resolve para todo mundo.",
       "cta_primary": "Ver o que eu construí",
       "cta_secondary": "Falar comigo",
       "hint": "Passe o cursor sobre o vidro"
@@ -372,7 +372,7 @@
         },
         {
           "kind": "Tooling para agentes",
-          "name": "Annotations de tela como contexto",
+          "name": "Anotações de tela como contexto",
           "org": "Venturus",
           "year": "2025",
           "summary": "Captura screenshots de navegação com marcações de eventos em tela, no formato COCO, alimentando LLMs e SLMs com contexto visual em vez de parágrafos de descrição.",
@@ -389,7 +389,7 @@
           "org": "Venturus",
           "year": "2025",
           "summary": "O cliente tinha uma regra de negócio enterrada em um legado que ninguém conseguia rastrear no dia a dia. Construí o app que explica — e conduz você pelo fluxo.",
-          "detail": "Node/TypeScript, Express, PostgreSQL, Zod, SSO, Docker. Front em Svelte guiado por um agente LangGraph que consome o MCP Server e o design system para renderizar componentes ao vivo. Notado pela diretoria como potencial produto.",
+          "detail": "Node/TypeScript, Express, PostgreSQL, Zod, SSO, Docker. Front em Svelte guiado por um agente LangGraph que consome o MCP Server e o design system para renderizar componentes ao vivo. Destacado pela diretoria como potencial produto.",
           "tags": [
             "Node",
             "PostgreSQL",
@@ -441,7 +441,7 @@
           "bullets": [
             "Arquitetei o MCP Server, o design system e a stack de agentes que eles alimentam.",
             "Automatizei code review, gestão de tarefas e métricas via workflows de IA.",
-            "Mentoro desenvolvedor júnior e apoio o time em requisitos e decisões técnicas."
+            "Mentoro um desenvolvedor júnior e apoio o time em requisitos e decisões técnicas."
           ]
         },
         {
@@ -449,12 +449,12 @@
           "company": "Ília Digital",
           "context": "Cliente: JP Morgan Chase",
           "period": "Abr 2022 — Abr 2025",
-          "summary": "Plataformas bancárias e de investimento usadas por milhares de clientes do JPMC, imerso diretamente nos times do banco.",
+          "summary": "Plataformas bancárias e de investimento usadas por milhares de clientes do JPMC, que construí imerso nos times do banco.",
           "bullets": [
             "Liderei o motor de documentação de APIs, de MVP não solicitado a projeto próprio.",
             "APIs em Python (RabbitMQ, PostgreSQL) para gestão de ativos; APIs em Elixir para cartões corporativos.",
             "Component library em Svelte substituindo o Material-UI — 70% menos tempo de sprint.",
-            "PWA de despesas, transferências e investimentos imobiliários — 40% mais rápido."
+            "PWA de despesas, transferências e investimentos imobiliários — carregamento 40% mais rápido."
           ]
         },
         {
@@ -569,19 +569,19 @@
       "title": "Tem um problema **debaixo de um problema?**",
       "lede": "Estou aberto a conversas sobre sistemas de IA, plataformas internas e engenharia que deixa times inteiros mais rápidos.",
       "email_label": "E-mail",
-      "email": "seu@email.com",
+      "email": "lucasmansoldo0@gmail.com",
       "links": [
         {
           "label": "LinkedIn",
-          "href": "https://linkedin.com/in/seu-usuario"
+          "href": "https://www.linkedin.com/in/lucas-mansoldo/"
         },
         {
           "label": "GitHub",
-          "href": "https://github.com/seu-usuario"
+          "href": "https://github.com/LMansoldo"
         },
         {
           "label": "Currículo (PDF)",
-          "href": "#"
+          "href": "/Lucas_Mansoldo_de_Andrade_en.pdf"
         }
       ]
     },
