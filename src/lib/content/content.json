@@ -276,6 +276,10 @@
       "lede": "I'm open to conversations about AI systems, internal platforms and engineering that makes whole teams faster.",
       "email_label": "Email",
       "email": "lucasmansoldo0@gmail.com",
+      "whatsapp": {
+        "number": "5521980303612",
+        "aria": "Chat on WhatsApp"
+      },
       "links": [
         {
           "label": "LinkedIn",
@@ -570,6 +574,10 @@
       "lede": "Estou aberto a conversas sobre sistemas de IA, plataformas internas e engenharia que deixa times inteiros mais rápidos.",
       "email_label": "E-mail",
       "email": "lucasmansoldo0@gmail.com",
+      "whatsapp": {
+        "number": "5521980303612",
+        "aria": "Conversar no WhatsApp"
+      },
       "links": [
         {
           "label": "LinkedIn",

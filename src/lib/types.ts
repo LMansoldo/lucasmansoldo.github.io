@@ -93,6 +93,7 @@ export interface ContactContent {
 	lede: string;
 	email_label: string;
 	email: string;
+	whatsapp: { number: string; aria: string };
 	links: ContactLink[];
 }
 

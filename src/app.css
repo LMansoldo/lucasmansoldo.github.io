@@ -332,11 +332,19 @@ header{position:fixed;top:0;left:0;right:0;z-index:60;padding-top:1rem}
 .contact .eyebrow{color:var(--v-cyan)}
 .contact h2{font-size:var(--t-sec);max-width:15ch}
 .contact p{max-width:48ch;font-size:var(--t-lead);font-weight:300;color:rgba(255,255,255,.6)}
+.reach{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:1.2rem;margin-top:.4rem}
 .mail{font-family:var(--display);font-weight:700;font-size:clamp(1.3rem,3.2vw,2.4rem);
-  letter-spacing:-.04em;margin-top:.4rem;padding-bottom:.14em;
+  letter-spacing:-.04em;padding-bottom:.14em;
   border-bottom:2px solid rgba(255,255,255,.24);
   transition:border-color .5s var(--ease),color .5s var(--ease)}
 .mail:hover{border-color:var(--v-cyan);color:var(--v-cyan)}
+.whats{display:grid;place-items:center;width:3rem;height:3rem;border-radius:50%;
+  border:1px solid rgba(255,255,255,.24);
+  transition:border-color .5s var(--ease),background .5s var(--ease),transform .5s var(--ease)}
+.whats svg{width:1.4rem;height:1.4rem;fill:rgba(255,255,255,.78);transition:fill .5s var(--ease)}
+.whats:hover{border-color:#25D366;background:rgba(37,211,102,.14);transform:translateY(-2px)}
+.whats:hover svg{fill:#25D366}
 .links{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-top:1rem}
 .links a{font-size:.9rem;font-weight:700;padding:.75rem 1.4rem;border-radius:999px;
   border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.78);
